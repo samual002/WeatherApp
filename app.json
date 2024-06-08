@@ -1,0 +1,30 @@
+{
+  "expo": {
+    "name": "weather",
+    "slug": "weather",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#adaaba"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#adaaba"
+      },
+      "package": "com.aditya.weatherapp"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    }
+  }
+}
